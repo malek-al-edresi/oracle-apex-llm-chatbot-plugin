@@ -1,4 +1,4 @@
-<img src="docs/images/dome.png" align="right" width="150" alt="Chatbot Logo" />
+<img src="docs/images/dome.png" width="100%" alt="Chatbot Header" />
 
 <div align="center">
 
