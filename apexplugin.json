@@ -20,6 +20,7 @@
         "url": "https://github.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin/issues"
     },
     "license": "Apache-2.0",
+    "commercial": "No",
     "repository": {
         "type": "git",
         "url": "https://github.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin.git"
