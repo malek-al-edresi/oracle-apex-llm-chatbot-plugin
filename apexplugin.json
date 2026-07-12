@@ -57,6 +57,9 @@
             "url": "https://github.com/malek-al-edresi"
         }
     ],
+    "peerDependencies": {
+        "fontAwesome": "4.7.0 || 5.x || 6.x"
+    },
     "engines": {
         "apex": ">=24.1.0"
     }
