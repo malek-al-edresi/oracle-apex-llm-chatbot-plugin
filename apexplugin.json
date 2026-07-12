@@ -40,8 +40,8 @@
             "plugin": {
                 "internalName": "CHATBOT_LLM_RAG",
                 "type": "region",
-                "demo": "https://oracleapex.com/ords/r/app_navification/llm-chatbot-dome/home?session=25908021845315",
-                "previewImage": "https://raw.githubusercontent.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin/main/docs/images/preview.png"
+                "demo": "https://oracleapex.com/ords/r/app_navification/llm-chatbot-dome/home",
+                "previewImage": "https://raw.githubusercontent.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin/main/docs/images/dome.png"
             }
         }
     },
