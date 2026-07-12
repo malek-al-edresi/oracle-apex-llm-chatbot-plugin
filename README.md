@@ -1,3 +1,5 @@
+<img src="docs/images/dome.png" align="right" width="150" alt="Chatbot Logo" />
+
 <div align="center">
 
 # Oracle APEX LLM Chatbot Plugin
