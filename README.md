@@ -28,11 +28,10 @@ The **Oracle APEX LLM Chatbot Plugin** provides a seamless way to integrate Arti
 
 ## Screenshots
 
-*(Placeholders for future screenshots)*
 
 | English UI (LTR) | Arabic UI (RTL) |
 |:---:|:---:|
-| ![Arabic UI Placeholder](docs/images/Arabic.png) | ![English UI Placeholder](docs/images/English.png) |
+| ![English UI](docs/images/English.png) | ![Arabic UI](docs/images/Arabic.png) |
 
 ## Architecture
 
