@@ -36,7 +36,7 @@ prompt APPLICATION 105 - Medical Center System
 -- Application Export:
 --   Application:     105
 --   Name:            Medical Center System
---   Date and Time:   10:54 Sunday July 12, 2026
+--   Date and Time:   22:36 Sunday July 12, 2026
 --   Exported By:     MEDICAL_CENTER_SYSTEM
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -192,7 +192,7 @@ unistr('        sys.htp.p(''<div style="color:red;padding:20px;">\26A0\FE0F Erro
 'end render_slider;'))
 ,p_api_version=>3
 ,p_render_function=>'render_slider'
-,p_version_scn=>'SH256:muw8gF2FQwPsPxwtc-r8e9K0anoOpp-qWhy68VKBJ_w'
+,p_version_scn=>'SH256:xK3anwL7CGPrkTJAkLznTlQwk03kHdxd53dZcFGdd18'
 ,p_help_text=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'This region plugin renders an interactive AI chat interface powered by a Large Language Model (LLM) with Retrieval-Augmented Generation (RAG). Users can type questions, and the plugin sends them to a backend APEX process (AI_CHAT_PROCESS) that return'
 ||'s a response.',
@@ -216,6 +216,7 @@ unistr('        sys.htp.p(''<div style="color:red;padding:20px;">\26A0\FE0F Erro
 '',
 'The plugin automatically loads its CSS and JS via the File URLs defined in the plugin settings.'))
 ,p_version_identifier=>'1.0'
+,p_about_url=>'https://github.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin'
 ,p_plugin_comment=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'LLM Chatbot plugin v1.0',
 'Author: Eng. Malek M. Al-Edresi',
