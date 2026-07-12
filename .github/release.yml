@@ -1,0 +1,28 @@
+name: Release Notes Template
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## What's Changed
+        
+        This release includes the following updates for the Oracle APEX LLM Chatbot Plugin:
+        
+  - type: textarea
+    id: features
+    attributes:
+      label: New Features
+      description: What new features were added?
+      placeholder: - Added support for ...
+  - type: textarea
+    id: fixes
+    attributes:
+      label: Bug Fixes
+      description: What bugs were fixed?
+      placeholder: - Fixed an issue where ...
+  - type: textarea
+    id: breaking
+    attributes:
+      label: Breaking Changes
+      description: Are there any breaking changes?
+      placeholder: - Removed attribute ...
