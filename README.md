@@ -7,10 +7,11 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Oracle APEX](https://img.shields.io/badge/Oracle%20APEX-24.1%2B-red.svg)](https://apex.oracle.com/)
 [![Release](https://img.shields.io/github/v/release/malek-al-edresi/oracle-apex-llm-chatbot-plugin?include_prereleases)](https://github.com/malek-al-edresi/oracle-apex-llm-chatbot-plugin/releases)
+[![apex.world](https://img.shields.io/badge/apex.world-Plugin-blueviolet.svg)](https://apex.world/)
 
 A modern, production-ready AI Chatbot interface supporting Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) directly inside Oracle APEX.
 
-[Overview](#overview) • [Key Features](#key-features) • [Architecture](#architecture) • [Installation](#installation) • [Documentation](#documentation) • [Support](#support)
+[Overview](#overview) • [Key Features](#key-features) • [Architecture](#architecture) • [Installation](#installation) • [Documentation](#documentation) • [Live Demo](https://oracleapex.com/ords/r/app_navification/llm-chatbot-dome/home) • [Support](#support)
 
 </div>
 

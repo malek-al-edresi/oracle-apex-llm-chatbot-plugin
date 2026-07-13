@@ -7,11 +7,13 @@ After installing the Oracle APEX LLM Chatbot Plugin and creating the region on y
 When you select the **LLM Chatbot** region in APEX Page Designer, you will see a specific attribute in the Property Editor:
 
 ### Language Style
-- **Type**: Select List
-- **Values**: `English` (Default) or `Arabic`
-- **Description**: This attribute dynamically switches the UI layout. If set to English, the chat aligns LTR. If set to Arabic, the chat aligns RTL and all built-in UI text (like placeholders and loading indicators) are translated.
 
-## 2. Setting up the APEX Process
+| Value     | Direction | Description                                                    |
+|-----------|-----------|----------------------------------------------------------------|
+| `English` | LTR       | Default. All UI text (placeholder, loading indicator) in English. |
+| `Arabic`  | RTL       | All UI text translated to Arabic; layout mirrors to RTL.         |
+
+## 2. Setting Up the APEX Process
 
 The JavaScript frontend expects an Application Process or a Page AJAX Callback named exactly **`AI_CHAT_PROCESS`**.
 
@@ -63,6 +65,18 @@ exception
 end;
 ```
 
+### Expected JSON Response Format
+
+The plugin expects the process to return a JSON object with a single `message` key:
+
+```json
+{
+  "message": "The bot's response text goes here"
+}
+```
+
+> **Important:** Do not use `htp.p()` or `dbms_output.put_line()` in your process, as it will break the JSON output parser.
+
 ## 3. JavaScript and CSS Files
 
 The plugin automatically references the following files (stored within the plugin's file repository):
@@ -70,3 +84,26 @@ The plugin automatically references the following files (stored within the plugi
 - `#PLUGIN_FILES#js/chat_script.js`
 
 If you need to make extensive custom modifications to the CSS or JS, you can download these files from the plugin export, modify them, and re-upload them to your workspace, or host them on your web server and adjust the plugin definition's "File URLs".
+
+## 4. Custom Styling (Optional)
+
+You can override the chatbot container size with page-level inline CSS:
+
+```css
+/* Full-page chatbot */
+.ai-chat-container {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+/* Fixed height chatbot */
+.ai-chat-container {
+    height: 600px;
+}
+```
+
+## Next Steps
+
+- [API Integration](api.md) — Detailed examples for OpenAI, OCI Generative AI, and RAG workflows.
+- [Troubleshooting](troubleshooting.md) — Common issues and solutions.
+- [FAQ](faq.md) — Frequently asked questions.
