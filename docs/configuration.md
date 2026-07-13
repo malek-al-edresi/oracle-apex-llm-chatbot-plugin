@@ -69,7 +69,7 @@ exception
 end;
 ```
 
-![PL/SQL Code Editor Example](images/code_process_eaxmple.png)
+![PL/SQL Code Editor Example](images/code_process_example.png)
 
 ### Expected JSON Response Format
 

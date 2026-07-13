@@ -17,6 +17,10 @@ A modern, production-ready AI Chatbot interface supporting Large Language Models
 
 ---
 
+## About
+
+The **Oracle APEX LLM Chatbot Plugin** was developed to bridge the gap between enterprise Oracle APEX applications and modern Generative AI capabilities. By providing a customizable, out-of-the-box UI that seamlessly handles both right-to-left (Arabic) and left-to-right (English) orientations, this plugin empowers APEX developers to integrate state-of-the-art conversational AI—such as OpenAI, OCI Generative AI, or custom RAG (Retrieval-Augmented Generation) architectures using Oracle 23ai Vector Search—directly into their existing pages with minimal effort.
+
 ## Overview
 
 The **Oracle APEX LLM Chatbot Plugin** provides a seamless way to integrate Artificial Intelligence into your Oracle APEX applications. Built with native APEX architecture, it delivers a modern glassmorphic UI, responsive design, and out-of-the-box support for RAG and LLM backend processes.
@@ -80,7 +84,7 @@ To process messages, you must configure a backend PL/SQL process named `AI_CHAT_
 
 ![Ajax Callback - AI_CHAT_PROCESS](docs/images/point_create_process.png)
 
-![PL/SQL Code Editor Example](docs/images/code_process_eaxmple.png)
+![PL/SQL Code Editor Example](docs/images/code_process_example.png)
 
 ## Documentation
 

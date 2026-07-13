@@ -63,7 +63,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_javascript_file_urls=>'#PLUGIN_FILES#js/chat_script.js'
 ,p_css_file_urls=>'#PLUGIN_FILES#css/chat_styles.css'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
-'procedure render_slider (',
+'procedure render_chatbot (',
 '    p_plugin in            apex_plugin.t_plugin,',
 '    p_region in            apex_plugin.t_region,',
 '    p_param  in            apex_plugin.t_region_render_param,',
@@ -189,9 +189,9 @@ unistr('          <span class="ai-chat-emoji">\D83D\DCAC</span>'),
 '        -- Fallback error message if PL/SQL fails',
 unistr('        sys.htp.p(''<div style="color:red;padding:20px;">\26A0\FE0F Error loading chatbot: '' '),
 '                  || substr(sqlerrm, 1, 100) || ''</div>'');',
-'end render_slider;'))
+'end render_chatbot;'))
 ,p_api_version=>3
-,p_render_function=>'render_slider'
+,p_render_function=>'render_chatbot'
 ,p_version_scn=>'SH256:xK3anwL7CGPrkTJAkLznTlQwk03kHdxd53dZcFGdd18'
 ,p_help_text=>wwv_flow_string.join(wwv_flow_t_varchar2(
 'This region plugin renders an interactive AI chat interface powered by a Large Language Model (LLM) with Retrieval-Augmented Generation (RAG). Users can type questions, and the plugin sends them to a backend APEX process (AI_CHAT_PROCESS) that return'
@@ -233,7 +233,7 @@ unistr('- #PLUGIN_FILES#js/chat_script.js    \2013 all client-side logic'),
 '',
 unistr('Language support: English (en) and Arabic (ar) \2013 direction, alignment, and texts are set dynamically.'),
 '',
-'To add new languages, extend the language conditional block in the render_slider procedure and provide translations for all UI strings.'))
+'To add new languages, extend the language conditional block in the render_chatbot procedure and provide translations for all UI strings.'))
 ,p_files_version=>2461233225735
 );
 wwv_flow_imp_shared.create_plugin_attribute(

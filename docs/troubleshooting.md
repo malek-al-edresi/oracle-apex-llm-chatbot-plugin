@@ -68,12 +68,12 @@ Edit the Region in Page Designer. Go to **Attributes** and ensure the **Language
 
 ---
 
-### Issue: Font Awesome icons are not displaying
+### Issue: Loading spinner does not appear on the Send button
 
-**Cause:** Font Awesome is not loaded in your APEX application.
+**Cause:** Custom CSS on the page is interfering with the plugin's button styles.
 
 **Solution:**
-Add Font Awesome to your application by going to **Shared Components > User Interface Attributes > JavaScript / CSS** and adding the Font Awesome CDN link, or ensure your Universal Theme includes Font Awesome (it is included by default in APEX 24.1+).
+Ensure no page-level CSS is overriding `.ai-chat-btn-loading` or its `::after` pseudo-element. The spinner uses a CSS `@keyframes spin` animation. If your application has a conflicting `@keyframes spin` rule, rename one of them.
 
 ---
 

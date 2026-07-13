@@ -225,8 +225,10 @@
 }
 
 /* -------------------------------------------------------------------
-   OPTIONAL: If you want it to fill the entire viewport instead,
-   uncomment the rule below and remove the height:100% above.
+   Viewport Override (ACTIVE)
+   This rule overrides the height:100% above and forces the container
+   to fill the full browser viewport. To use parent-relative sizing
+   instead, comment out or remove this block and keep height:100%.
    ------------------------------------------------------------------- */
 
 .ai-chat-container {
