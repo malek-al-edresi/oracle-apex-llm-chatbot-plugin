@@ -74,6 +74,14 @@ To process messages, you must configure a backend PL/SQL process named `AI_CHAT_
 |-----------|-------------|---------|
 | **Language Style** | Sets the UI language, direction (RTL/LTR), and localized text. | `English` |
 
+![Language Style Attribute](docs/images/select_type_style_chatbot.png)
+
+### Process Setup
+
+![Ajax Callback - AI_CHAT_PROCESS](docs/images/point_create_process.png)
+
+![PL/SQL Code Editor Example](docs/images/code_process_eaxmple.png)
+
 ## Documentation
 
 Comprehensive documentation is available in the `docs/` directory:

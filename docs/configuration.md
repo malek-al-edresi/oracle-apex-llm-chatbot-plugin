@@ -13,6 +13,8 @@ When you select the **LLM Chatbot** region in APEX Page Designer, you will see a
 | `English` | LTR       | Default. All UI text (placeholder, loading indicator) in English. |
 | `Arabic`  | RTL       | All UI text translated to Arabic; layout mirrors to RTL.         |
 
+![Language Style Attribute in Page Designer](images/select_type_style_chatbot.png)
+
 ## 2. Setting Up the APEX Process
 
 The JavaScript frontend expects an Application Process or a Page AJAX Callback named exactly **`AI_CHAT_PROCESS`**.
@@ -24,6 +26,8 @@ The JavaScript frontend expects an Application Process or a Page AJAX Callback n
 3. Set the **Name** to `AI_CHAT_PROCESS`.
 4. Set the **Point** to `Ajax Callback`.
 5. Enter PL/SQL code to handle the request.
+
+![Ajax Callback - AI_CHAT_PROCESS](images/point_create_process.png)
 
 ### Example PL/SQL Boilerplate
 
@@ -64,6 +68,8 @@ exception
         apex_json.close_object;
 end;
 ```
+
+![PL/SQL Code Editor Example](images/code_process_eaxmple.png)
 
 ### Expected JSON Response Format
 
