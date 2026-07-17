@@ -1,7 +1,7 @@
 {
     "name": "LLM Chatbot",
     "version": "1.0.0",
-    "description": "An interactive AI chat interface for Oracle APEX powered by a Large Language Model (LLM) with Retrieval-Augmented Generation (RAG) capabilities.",
+    "description": "LLM Chatbot is an Oracle APEX region plugin that adds an AI-powered chatbot with a modern responsive interface, Arabic and English support, RTL/LTR layouts, localized messages, and seamless integration with backend AI services including RAG and Generative AI.",
     "keywords": [
         "chatbot",
         "llm",
